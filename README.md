@@ -1,5 +1,5 @@
 # peptoid_ESM
-This repository is to compare the enhance sampling method of peptoid 19AE1-4-A in Systematic and Extensible force field for Peptoids (STEPs)
+This repository is to compare the Enhance Sampling Methods of peptoid 19AE1-4-A in Systematic and Extensible force field for Peptoids (STEPs)
 
 ### 19AE1-4-A/
 This foder contain the topology of 19AE1-4-A code in [Peptoid Data Bank](https://databank.peptoids.org/)
