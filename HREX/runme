@@ -1,8 +1,11 @@
 module load gromacs/2021.2
 
-# Production Run
+# Production Run to see how much ns can system run per day
 gmx grompp -f prod.mdp -c input.gro -p peptoid.top -o prod.tpr
 
+# make an index file 
+echo "\!27\nname 28 peptoid\nq\n" | gmx make_ndx -f 19AE1-4-A_protonated_ion.gro -o index.ndx
+echo "q" | gmx make_ndx -n index.ndx
 
 # Transfer the file name
 # Prepare n state with different FEP lambda value
