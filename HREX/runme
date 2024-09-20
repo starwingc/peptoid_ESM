@@ -1,0 +1,6 @@
+module load gromacs/2021.2
+
+
+gmx grompp -f prod.mdp -c input.gro -p peptoid.top -o prod.tpr
+
+
