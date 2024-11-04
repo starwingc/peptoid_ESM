@@ -1,0 +1,1 @@
+gmx trjcat -o REDS.trr -f traj2_510.trr traj2_520.trr traj2_530.trr traj2_540.trr traj2_550.trr traj2_560.trr traj2_570.trr traj2_580.trr traj2_590.trr traj2_600.trr
