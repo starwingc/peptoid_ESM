@@ -16,8 +16,8 @@ This foder contain the topology of 19AE1-4-A code in [Peptoid Data Bank](https:/
 Open change the torsional potential and do the Hamiltonian Replica Exchange at constant temperature
 * Prepared by: Starwing & Vince 
 
-### Enhanced_Emsemble/
-
+### EE/
+Expended Emsemble
 * Prepared by: Starwing & Vince
 
 ### REDs/
@@ -27,3 +27,8 @@ Open change the torsional potential and do the Hamiltonian Replica Exchange at c
 ### Metadynamics/
 
 * Prepared by: Bradely & Marcel
+
+### Plain_MD/
+
+Same system starting from 8 different cis/trnas state. 
+* Prepared by: Starwing & Vince & Bradely
