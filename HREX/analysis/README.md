@@ -7,6 +7,7 @@ Run **`omega_analysis.ipynb`** to obtain the omega data for every replica and ev
     - `omegas_state*.pkl` include the state omegas  
 
 ## Step 2: Perform Clustering Analysis  
+Run **`clustering.ipynb`**
 - read in the `omegas_state0.pkl`
 - convert them into simple two state cis/trans [0, 1]
 - Analyze cluster formations.  
