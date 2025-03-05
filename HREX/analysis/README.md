@@ -29,3 +29,11 @@ Run **`clustering.ipynb`**
 - take in the `omegas_rep*.pkl`
 - convert them into simple two state cis/trans [0, 1]
 - calculate autocoorelation timescale arocss six replicas for three difference omega angles 
+
+### `transition_matrix.ipynb`
+- take in the `all_omega.pkl`
+- convert them into simple two state cis/trans [0, 1]
+- manually assign each cis/tran into 32 state (8 trans/cis state x 4 lambda state), and create a (85, somenumber inlude nah for placeholder) 
+- create a transition matrix between 32 state for difference lag time 
+- alcualte the eigenvector (stationary state population) of the identity eigenvalue 
+- plot the stationary state population along each tau 
