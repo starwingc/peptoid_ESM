@@ -1,5 +1,0 @@
-# make an EE tpr
-gmx grompp -f ee_1ns.mdp -c input.gro -p peptoid.top -o ee.tpr -n index.ndx 
-
-# Perform 1 ns of EE
-gmx mdrun -v -s ee.tpr 
