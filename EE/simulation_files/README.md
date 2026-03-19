@@ -21,7 +21,3 @@ gmx mdrun -s prod.tpr  -deffnm prod
 ### Command Breakdown:
 * **`-v`**: Enables verbose mode, printing the simulation progress and estimated time to completion to the terminal.
 * **`-deffnm prod`**: Sets the default file name prefix for all outputs (e.g., `prod.xtc`, `prod.edr`, `prod.log`) to match your `.tpr` file.
-
-***
-
-Would you like me to draft a follow-up section explaining how to extract and analyze the free energy data (such as processing the `dhdl.xvg` file) from this simulation?
