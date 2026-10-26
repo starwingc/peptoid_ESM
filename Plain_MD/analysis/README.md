@@ -13,13 +13,12 @@ Run **`clustering.ipynb`**
 - take in the `data.pkl`
 - calculate the trans population (0, 1) along the time
 
-### `implied_timescale.ipynb` (need to double check)
+### `cistrans_8_conform_population.ipynb`
 - take in the `data.pkl`
-- convert them into simple two state cis/trans [0, 1]
-- built a transition matrix
-- calculate the implied timescale (second most important eigenvalue) across each tau for three omega angles
+- same idea as `cistrans_population.ipynb` but for the 8-conformer model
+  (all combinations of cis/trans across the 3 residues)
 
-### `autocoorelation.ipynb`
+### `autocorrelation.ipynb`
 - take in the `data.pkl`
 - convert them into simple two state cis/trans [0, 1]
 - calculate autocoorelation timescale arocss six replicas for three difference omega angles 
@@ -32,3 +31,9 @@ Run **`clustering.ipynb`**
 - create a transition matrix between 8 state for difference lag time 
 - alcualte the eigenvector (stationary state population) of the identity eigenvalue 
 - plot the stationary state population along each tau 
+
+### `transition_matrix_res.ipynb`
+- same as `transition_matrix.ipynb` but builds an independent 2-state
+  (cis/trans) transition matrix per residue instead of the joint 8-state one
+- also used to calculate the implied timescale (second-largest eigenvalue)
+  across each tau for the three omega angles
