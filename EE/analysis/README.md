@@ -9,7 +9,7 @@ Run **`clustering.ipynb`**
 
 ## Step 2: Analysis of the result 
 
-### `autocoorelation.ipynb`
+### `autocorrelation.ipynb`
 - take in the `all_omega.pkl`
 - convert them into simple two state cis/trans [0, 1]
 - calculate autocoorelation timescale arocss six replicas for three difference omega angles 
